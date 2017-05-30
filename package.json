@@ -1,0 +1,15 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "Twitter bot tutorial from Risingstack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
