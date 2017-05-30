@@ -2,6 +2,23 @@
 
 ```
 To start a twitter bot
+you would need to add your config.js file to the directory.
+
+//config.js
+/** TWITTER APP CONFIGURATION
+ * consumer_key
+ * consumer_secret
+ * access_token
+ * access_token_secret
+ */
+ 
+ module.exports = {
+      consumer_key: 'YOUR KEY',
+      consumer_secret: 'YOUR SECRET',
+      access_token: 'YOUR TOKEN',
+      access_token_secret: 'YOUR TOKEN SECRET'
+ };
+//
 
 npm start
 
